@@ -3,6 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import HeaderContainer from "./components/header/HeaderContainer";
 import NavBarContainer from "./components/navbar/NavbarContainer";
 import "../src/draftSTyle/main.css";
+import HotelsContainer from "./pages/hotels/HotelsContainer";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <HeaderContainer />
       <div className="content">
         <NavBarContainer />
-
+<HotelsContainer />
         {/* <Routes>
       <Route path="/" element={<HomeContainer />}></Route>
         <Route path="/hotel" element={<HotelsContainer />}></Route>
