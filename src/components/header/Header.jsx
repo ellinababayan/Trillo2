@@ -5,11 +5,13 @@ import "./Header.css";
 const Header = () => {
   return (
     <header className="header">
-      <img
-        src="https://www.trillo.io/wp-content/uploads/2021/05/Trillo-600-200.png"
-        alt="trillo logo"
-        className="logo"
-      />
+      <a href="/">
+        <img
+          src="https://www.trillo.io/wp-content/uploads/2021/05/Trillo-600-200.png"
+          alt="trillo logo"
+          className="logo"
+        />
+      </a>
 
       <form action="#" className="search">
         <input

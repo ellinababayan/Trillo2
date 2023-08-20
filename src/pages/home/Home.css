@@ -1,0 +1,129 @@
+/* .home_container {
+    padding: 25px;
+}
+
+.summary {
+
+}
+
+.why {
+
+}
+
+.start {
+
+}
+
+.ready {
+
+}
+
+.navigation {
+
+} */
+
+/* Reset default margin and padding */
+.block {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Apply a background color and center content */
+.home_container {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Style for the summary section */
+.summary h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #444;
+}
+
+.summary h4 {
+  font-size: 19px;
+  color: #777;
+  margin-bottom: 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.summary p {
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+/* Style for the why section */
+.why h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.why ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.why span {
+  font-size: 18px;
+  color: #444;
+  /* font-weight: bold; */
+}
+
+/* Style for the start section */
+.start h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.start p {
+  font-size: 18px;
+  color: #444;
+  text-align: center;
+}
+
+/* Style for the ready section */
+.ready {
+  text-align: center;
+}
+
+.ready h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.navigation {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ba265d;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.navigation:hover {
+  background-image: linear-gradient(to right bottom, #eb2f64, #ba265d);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .home_container {
+    padding: 20px;
+  }
+}
