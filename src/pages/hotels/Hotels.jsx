@@ -28,7 +28,7 @@ const Hotels = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-star"
+            className="bi bi-star"
             viewBox="0 0 16 16"
           >
             {" "}
@@ -39,7 +39,7 @@ const Hotels = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-star"
+            className="bi bi-star"
             viewBox="0 0 16 16"
           >
             {" "}
@@ -50,7 +50,7 @@ const Hotels = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-star"
+            className="bi bi-star"
             viewBox="0 0 16 16"
           >
             {" "}
@@ -61,7 +61,7 @@ const Hotels = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-star"
+            className="bi bi-star"
             viewBox="0 0 16 16"
           >
             {" "}
@@ -72,7 +72,7 @@ const Hotels = () => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-star"
+            className="bi bi-star"
             viewBox="0 0 16 16"
           >
             {" "}
@@ -168,7 +168,7 @@ const Hotels = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-star"
+                className="bi bi-star"
                 viewBox="0 0 16 16"
               >
                 {" "}
@@ -201,7 +201,7 @@ const Hotels = () => {
                 width="16"
                 height="16"
                 fill="currentColor"
-                class="bi bi-star"
+                className="bi bi-star"
                 viewBox="0 0 16 16"
               >
                 {" "}
