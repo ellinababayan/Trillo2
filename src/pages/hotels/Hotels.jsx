@@ -3,6 +3,12 @@ import "./Hotels.css";
 import { Star } from "../../components/svg/Icons";
 
 const Hotels = () => {
+  const handleRedirect = () => {
+    window.open(
+      "https://www.expedia.com/Hotels?locale=en_US&siteid=1&semcid=US.B.GOOGLE.BT-c-EN.HOTEL&semdtl=a118255096947.b1140212825805.g1kwd-44236933.e1c.m1Cj0KCQjw84anBhCtARIsAISI-xf7oHZEjc_0JUDnR5PMVoNTFjV18IqlwPrTBhsboIHl86hjZBGnmHMaAsqEEALw_wcB.r1ef8e0ce40a81e678f176f6a82631526e21006d3855c1d6f13568c5db536829e9.c1qHyqXpYVls_6yaMOyjqIXg.j19031140.k1.d1624926830979.h1e.i1.l1.n1.o1.p1.q1.s1.t1.x1.f1.u1.v1.w1&gclid=Cj0KCQjw84anBhCtARIsAISI-xf7oHZEjc_0JUDnR5PMVoNTFjV18IqlwPrTBhsboIHl86hjZBGnmHMaAsqEEALw_wcB"
+    );
+  };
+
   return (
     <main className="hotel-view">
       <div className="gallery">
@@ -146,7 +152,7 @@ const Hotels = () => {
         <h2 className="cta__book-now">
           Good news! We have 4 free rooms for your selected dates!
         </h2>
-        <button className="btn">
+        <button className="btn" onClick={handleRedirect}>
           <span className="btn__visible">Book now</span>
           <span className="btn__invisible">Only 4 rooms left</span>
         </button>

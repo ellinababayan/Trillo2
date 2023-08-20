@@ -28,8 +28,13 @@ const Home = () => {
             <span>Tours</span>
           </a>
         </div>
+        <div>
+          <button type="submit" id="down" className="navigation">
+            &#8964;
+          </button>
+        </div>
       </div>
-      
+
       <div className="why block">
         <h2>Why Choose Trillo?</h2>
         <span>

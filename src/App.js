@@ -5,6 +5,7 @@ import NavBarContainer from "./components/navbar/NavbarContainer";
 import "../src/draftSTyle/main.css";
 import HotelsContainer from "./pages/hotels/HotelsContainer";
 import HomeContainer from "./pages/home/HomeContainer";
+import FlightsContainer from "./pages/flights/FlightsContainer";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeContainer />}></Route>
           <Route path="/hotel" element={<HotelsContainer />}></Route>
-          {/* <Route path="/flights" element={<FlightsContainer />}></Route>
-        <Route path="/car" element={<CarContainer />}></Route>
+          <Route path="/flight" element={<FlightsContainer />}></Route>
+         {/*<Route path="/car" element={<CarContainer />}></Route>
         <Route path="/tours" element={<ToursContainer />}></Route> */}
         </Routes>
       </div>
