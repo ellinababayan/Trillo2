@@ -1,5 +1,6 @@
 import React from "react";
 import "../../draftSTyle/main.css";
+import "./Header.css";
 
 const Header = () => {
   return (
