@@ -17,8 +17,29 @@
 
 /* Style for the summary section */
 .logo_big {
-height: 10rem;
-width: 28rem;
+  height: 10rem;
+  width: 28rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .logo_big {
+    height: 7rem;
+    width: 20rem;
+  }
+
+  
+}
+/* @media only screen and (max-width: 900px) {
+  .summary h1 {
+    font-size: 20px;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .logo_big {
+    height: 4rem;
+    width: 12rem;
+  }
 }
 
 .summary_background {
@@ -44,6 +65,12 @@ width: 28rem;
   width: 50%;
   padding: 20px;
   text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .summary {
+    height: 50%;
+  }
 }
 
 .summary h1 {
