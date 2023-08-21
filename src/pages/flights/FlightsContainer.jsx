@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Flights from "./Flights";
 
 const FlightsContainer = () => {
@@ -6,6 +6,11 @@ const FlightsContainer = () => {
   const [destination, setDestination] = useState("");
   const [dates, setDates] = useState("");
   const [bookingServices, setBookingServices] = useState([]);
+
+  const bookingServiceLogos = [
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Google_Flights_logo.svg/2560px-Google_Flights_logo.svg.png",
+    "https://assets.stickpng.com/images/589a4c455aa6293a4aac48ca.png",
+  ];
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -25,6 +30,7 @@ const FlightsContainer = () => {
       destination={destination}
       setDestination={setDestination}
       bookingServices={bookingServices}
+      bookingServiceLogos={bookingServiceLogos}
     />
   );
 };

@@ -42,6 +42,7 @@
   transition: transform 0.2s;
   border: none;
 }
+
 .search__button:focus {
   outline: none;
   background-color: #f0eeee;

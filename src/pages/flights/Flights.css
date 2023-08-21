@@ -1,0 +1,63 @@
+.container__flights {
+  background-image: url(/public/img/633ca975-9d24-43e7-802d-3e6b51e4d166.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
+
+.container__searchbar {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+
+@media screen and (max-width: 500px) {
+  .container__searchbar {
+    height: 30%;
+  }
+}
+
+.container__flights h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.container__flights label {
+  font-size: 1.5rem;
+}
+
+.logo_flights {
+  width: 16rem;
+  height: 4rem;
+  margin: 2rem;
+}
+
+.search__flights {
+  background-color: white;
+  border: none;
+  color: inherit;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  width: 20%;
+  transition: all 0.2s;
+  margin: 1rem;
+}
+
+.results p {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.find {
+  padding: 2rem 7.5rem;
+}
