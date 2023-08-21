@@ -143,9 +143,9 @@ const Hotels = () => {
               <Star />
             </figcaption>
           </figure>
-          <button className="btn-inline">
+          {/* <button className="btn-inline">
             Show all <span>&rarr;</span>
-          </button>
+          </button> */}
         </figure>
       </div>
       <div className="cta">

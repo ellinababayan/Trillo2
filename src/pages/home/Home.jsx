@@ -18,13 +18,13 @@ const Home = () => {
           <a href="/hotel" className="navigation">
             <span>Hotel</span>
           </a>
-          <a href="#" className="navigation">
+          <a href="/flight" className="navigation">
             <span>Flight</span>
           </a>
-          <a href="#" className="navigation">
+          <a href="/car" className="navigation">
             <span>Car Rental</span>
           </a>
-          <a href="#" className="navigation">
+          <a href="/tours" className="navigation">
             <span>Tours</span>
           </a>
         </div>
