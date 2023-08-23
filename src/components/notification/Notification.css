@@ -1,0 +1,15 @@
+.notification_container {
+  background-color: #f4f2f2;
+  position: absolute;
+  top: 20%;
+  right: 14rem;
+  z-index: 20;
+  height: 15rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.btn_close {
+  padding: 0.5rem;
+  margin-left: 20rem;
+}

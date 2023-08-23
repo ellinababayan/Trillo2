@@ -1,8 +1,9 @@
 import React from "react";
 import "../../draftSTyle/main.css";
 import "./Header.css";
+import Notification from "../notification/Notification";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
       <a href="/">
@@ -49,7 +50,10 @@ const Header = () => {
           <span className="user-nav__notification">7</span>
         </div>
 
-        <div className="user-nav__icon-box">
+        <div
+          className="user-nav__icon-box"
+          onClick={props.handleOpenNotification}
+        >
           <svg
             width="24"
             height="24"
@@ -77,9 +81,15 @@ const Header = () => {
               strokeLinejoin="round"
             />
           </svg>
-          <span className="user-nav__notification">13</span>
+          <span className="user-nav__notification">4</span>
         </div>
-
+        {props.isOpen ? (
+          <Notification
+            handleCloseNotification={props.handleCloseNotification}
+          />
+        ) : (
+          ""
+        )}
         <div className="user-nav__user">
           <img
             src="img/account.jpg"
