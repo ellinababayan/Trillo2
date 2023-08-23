@@ -2,23 +2,37 @@ import React, { useState } from "react";
 import Header from "./Header";
 
 const HeaderContainer = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenMessage, setIsOpenMessage] = useState(false);
+  const [isOpenNotification, setIsOpenNotification] = useState(false);
 
   const handleOpenNotification = () => {
-    setIsOpen(true);
+    setIsOpenNotification(true);
   };
 
   const handleCloseNotification = () => {
     console.log("clode");
-    setIsOpen(false);
+    setIsOpenNotification(false);
+  };
+
+  const handleOpenMessage = () => {
+    setIsOpenMessage(true);
+  };
+
+  const handleCloseMessage = () => {
+    console.log("close");
+    setIsOpenMessage(false);
   };
 
   return (
     <Header
-      isOpen={isOpen}
-      setIsOpen={setIsOpen}
+      isOpenMessage={isOpenMessage}
+      setIsOpenMessage={setIsOpenMessage}
+      isOpenNotification={isOpenNotification}
+      setIsOpenNotification={setIsOpenNotification}
       handleOpenNotification={handleOpenNotification}
       handleCloseNotification={handleCloseNotification}
+      handleCloseMessage={handleCloseMessage}
+      handleOpenMessage={handleOpenMessage}
     />
   );
 };
