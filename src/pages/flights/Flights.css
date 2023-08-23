@@ -18,11 +18,12 @@
   left: 32%;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .container__searchbar {
-    height: 30%;
+    height: 40%;
+    width: 50%;
   }
-}
+} */
 
 .container__flights h1 {
   text-align: center;
@@ -60,4 +61,25 @@
 
 .find {
   padding: 2rem 7.5rem;
+  /* display: block; */
+}
+
+/* 
+label {
+  display: block;
+
+} */
+
+@media only screen and (max-width: 900px) {
+  label {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .find {
+    display: block;
+    /* text-align: center; */
+    margin: auto;
+  }
 }
