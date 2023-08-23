@@ -1,0 +1,7 @@
+.car_container {
+  background-image: url("/public/img/car1.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+}
