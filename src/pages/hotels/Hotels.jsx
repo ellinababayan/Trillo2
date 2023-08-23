@@ -13,15 +13,15 @@ const Hotels = () => {
     <main className="hotel-view">
       <div className="gallery">
         <figure className="gallery__item">
-          <img src="img/hotel1.jpg" alt="Photo 1" className="gallery__photo" />
+          <img src="img/rest2.jfif" alt="Photo 1" className="gallery__photo" />
         </figure>
 
         <figure className="gallery__item">
-          <img src="img/hotel1.jpg" alt="Photo 2" className="gallery__photo" />
+          <img src="img/room3.jfif" alt="Photo 2" className="gallery__photo" />
         </figure>
 
         <figure className="gallery__item">
-          <img src="img/hotel1.jpg" alt="Photo 3" className="gallery__photo" />
+          <img src="img/hotel5.jfif" alt="Photo 3" className="gallery__photo" />
         </figure>
       </div>
 
