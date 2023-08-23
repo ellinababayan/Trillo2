@@ -40,7 +40,8 @@
   left: 0;
   height: 100%;
   width: 0.3rem;
-  background-color: #eb2f64;
+  background-color: #ff3365;
+  z-index: -5;
   transform: scaleY(0);
   transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
     background-color 0.1s;
@@ -70,7 +71,9 @@
 }
 
 .side-nav__link--active {
-  color: #faf9f9;
+  /* color: #faf9f9; */
+  color: #333;
+  font-weight: 800;
   background-color: #ff3365;
   text-decoration: none;
   text-transform: uppercase;
