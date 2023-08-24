@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollAnimation from "react-animate-on-scroll";
 import "./Car.css";
 
 const Car = (props) => {
@@ -60,7 +61,10 @@ const Car = (props) => {
         </div>
       </div>
       <div className="how_car">
-        <h1>How It Works?</h1>
+        <ScrollAnimation animateIn="fadeIn">
+          <h1>How It Works?</h1>
+        </ScrollAnimation>
+
         <span>
           <li>
             <h1> Search and Select:</h1> Browse through the available car
@@ -100,12 +104,11 @@ const Car = (props) => {
         <h1>
           Book your car rental today and unlock the freedom to make the most of
           your travels. Experience convenience, comfort, and unparalleled
-          service with Trillo Car Rental Services. Your adventure awaits – start
+          service with Trillo Car Rental Services. Your adventure awaits - start
           it on wheels!
         </h1>
       </div>
-      <div className="book_car"></div>
-      <p>Car</p>
+      {/* <div className="book_car"></div> */}
     </div>
   );
 };

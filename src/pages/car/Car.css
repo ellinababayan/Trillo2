@@ -2,10 +2,9 @@
   background-image: url("/public/img/car1.jfif");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 160vh;
   width: 100%;
 }
-
 
 .container__searchbar {
   background-color: rgba(0, 0, 0, 0.6);
@@ -84,4 +83,16 @@
   .search__cars {
     width: 50%;
   }
+}
+
+.how_car {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  /* text-align: center; */
+  width: 50%;
+  position: absolute;
+  top: 90%;
+  left: 32%;
 }
