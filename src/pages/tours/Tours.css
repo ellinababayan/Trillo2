@@ -1,3 +1,7 @@
 .tours_container {
-    background-image: url("/public/img/tours4.jfif");
+  background-image: url("/public/img/tours6.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
 }

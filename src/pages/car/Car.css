@@ -2,6 +2,86 @@
   background-image: url("/public/img/car1.jfif");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
   width: 100%;
+}
+
+
+.container__searchbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+
+.container__cars h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.container__cars label {
+  font-size: 1.5rem;
+}
+
+.logo_cars {
+  width: 16rem;
+  /* height: 4rem; */
+  margin: 2rem;
+}
+
+.search__cars {
+  background-color: white;
+  border: none;
+  color: inherit;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  width: 20%;
+  transition: all 0.2s;
+  margin: 1rem;
+}
+
+.results p {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* .results_container {
+  background-color: rgba(238, 238, 238, 0.849);
+  width: 5rem;
+  height: 5rem;
+} */
+
+.find {
+  padding: 2rem 7.5rem;
+}
+
+@media only screen and (max-width: 1513px) {
+  label {
+    display: block;
+  }
+  .find {
+    display: block;
+    margin: auto;
+  }
+  .search__cars {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .find {
+    padding: 2rem;
+  }
+
+  .search__cars {
+    width: 50%;
+  }
 }

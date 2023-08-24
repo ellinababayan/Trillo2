@@ -58,6 +58,23 @@ const Flights = (props) => {
           ))}
         </div>
       </div>
+      <div className="why_flights">
+        <noscript>
+          Discover the world at your fingertips with our easy flight booking
+          service. Whether you're planning a quick getaway or a grand vacation,
+          we've got you covered. Why Choose Us: Wide Selection: Explore a vast
+          range of flight options to your dream destinations. Instant Booking:
+          Secure your seat with quick and hassle-free online booking. Best
+          Prices: Enjoy competitive prices and exclusive deals on flights. 24/7
+          Support: Our dedicated team is available around the clock to assist
+          you. How It Works: Search: Enter your travel details and preferences.
+          Choose: Browse through available flights and select your ideal
+          itinerary. Book: Confirm your booking and receive instant
+          confirmation. Fly: Embark on your journey and create unforgettable
+          memories. Your next adventure begins here. Book your flight with
+          [TravelWebsiteName] today!
+        </noscript>
+      </div>
     </div>
   );
 };

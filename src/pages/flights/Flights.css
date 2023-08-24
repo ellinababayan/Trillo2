@@ -2,13 +2,12 @@
   background-image: url(/public/img/633ca975-9d24-43e7-802d-3e6b51e4d166.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 80vh; */
   height: 100vh;
   width: 100%;
 }
 
 .container__searchbar {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 10px;
   padding: 10px;
@@ -32,7 +31,7 @@
 
 .logo_flights {
   width: 16rem;
-  height: 4rem;
+  /* height: 4rem; */
   margin: 2rem;
 }
 
@@ -52,6 +51,12 @@
   font-weight: 300;
   text-align: center;
 }
+
+/* .results_container {
+  background-color: rgba(238, 238, 238, 0.849);
+  width: 5rem;
+  height: 5rem;
+} */
 
 .find {
   padding: 2rem 7.5rem;
