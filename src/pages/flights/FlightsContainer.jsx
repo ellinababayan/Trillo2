@@ -9,7 +9,8 @@ const FlightsContainer = () => {
 
   const bookingServiceLogos = [
     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Google_Flights_logo.svg/2560px-Google_Flights_logo.svg.png",
-    "https://assets.stickpng.com/images/589a4c455aa6293a4aac48ca.png",
+    // "https://assets.stickpng.com/images/589a4c455aa6293a4aac48ca.png",
+    "https://logos-world.net/wp-content/uploads/2021/02/Expedia-Logo-2012-2021.png",
   ];
 
   const handleSubmit = (event) => {
