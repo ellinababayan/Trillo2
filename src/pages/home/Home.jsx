@@ -29,13 +29,18 @@ const Home = () => {
           </a>
         </div>
         <div>
-          <button type="submit" id="down" className="navigation">
+          <button
+            type="submit"
+            id="down"
+            className="navigation"
+            onClick={document.getElementById("why")}
+          >
             &#8964;
           </button>
         </div>
       </div>
 
-      <div className="why block">
+      <div className="why block" id="why">
         <h2>Why Choose Trillo?</h2>
         <span>
           <li>

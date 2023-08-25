@@ -8,6 +8,20 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
     display: inline-block;
   }
+
+  @media only screen and (max-width: 900px) {
+    .message_container {
+      top:4.5%;
+      right: 10rem
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .message_container {
+      top:8%;
+      right: 10rem
+    }
+  }
   
   .btn_close {
     padding: 0.5rem;

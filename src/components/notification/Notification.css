@@ -9,7 +9,26 @@
   display: inline-block;
 }
 
+@media only screen and (max-width: 900px) {
+  .notification_container {
+    top:4.5%;
+    right: 10rem
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .notification_container {
+    top:8%;
+    right: 10rem
+  }
+}
+
 .btn_close {
   padding: 0.5rem;
   margin-left: 20rem;
+}
+
+.notification {
+  /* border-radius: 1rem; */
+  padding-bottom: 0.5rem;
 }
