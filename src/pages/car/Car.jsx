@@ -65,48 +65,78 @@ const Car = (props) => {
           <h1>How It Works?</h1>
         </ScrollAnimation>
 
-        <span>
+        <span className="car_span">
           <li>
-            <h1> Search and Select:</h1> Browse through the available car
-            options based on your preferences and requirements.
+            <img
+              src="https://freeiconshop.com/wp-content/uploads/edd/search-var-flat.png"
+              alt="Search and Select"
+              className="how_car_img"
+            />
+            <h3> Search and Select</h3> Browse through the available car options
+            based on your preferences and requirements.
           </li>
-          <li>
+          {/* <li>
             <h1>Choose Extras:</h1> Enhance your driving experience by adding
             optional extras such as GPS navigation, child seats, and additional
             insurance coverage.
-          </li>
+          </li> */}
           <li>
-            <h1>Make a Reservation:</h1> Once you've selected your ideal vehicle
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/1574/1574045.png"
+              alt="Reservation"
+              className="how_car_img"
+            />
+            <h3>Make a Reservation</h3> Once you've selected your ideal vehicle
             and options, proceed to the reservation page.
           </li>
           <li>
-            <h1>Confirmation:</h1> You'll receive a confirmation of your
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1004/1004739.png"
+              alt="Confirmation"
+              className="how_car_img"
+            />
+            <h3>Confirmation</h3> You'll receive a confirmation of your
             reservation with all the necessary details .
           </li>
           <li>
-            <h1>Pickup and Enjoy:</h1> Head to the pickup location to collect
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5526/5526231.png"
+              alt="Enjoy"
+              className="how_car_img"
+            />
+            <h3>Pickup and Enjoy</h3> Head to the pickup location to collect
             your rental car. We will guide you through the necessary paperwork
             and vehicle familiarization.
           </li>
           <li>
-            <h1>Safe Travels:</h1>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/8632/8632343.png"
+              alt="Safe Travels"
+              className="how_car_img"
+            />
+            <h3>Safe Travels</h3>
             Drive with peace of mind, knowing that our vehicles undergo regular
             maintenance and safety checks.
           </li>
           <li>
-            <h1>Return with Ease:</h1>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5625/5625642.png"
+              alt="Easy Return"
+              className="how_car_img"
+            />
+            <h3>Return with Ease</h3>
             Return the vehicle to the designated drop-off location. Our staff
             will conduct a quick inspection, and you'll be on your way in no
             time.
           </li>
         </span>
 
-        <h1>
+        {/* <h1>
           Book your car rental today and unlock the freedom to make the most of
           your travels. Experience convenience, comfort, and unparalleled
           service with Trillo Car Rental Services. Your adventure awaits - start
           it on wheels!
-        </h1>
+        </h1> */}
       </div>
       {/* <div className="book_car"></div> */}
     </div>
