@@ -21,13 +21,16 @@
   width: 28rem;
 }
 
+.logo_small {
+  height: 5rem;
+  width: 14rem;
+}
+
 @media only screen and (max-width: 900px) {
   .logo_big {
     height: 7rem;
     width: 20rem;
   }
-
-  
 }
 /* @media only screen and (max-width: 900px) {
   .summary h1 {
@@ -58,7 +61,7 @@
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 57%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -103,17 +106,22 @@
 }
 
 /* Style for the why section */
+
 .why h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
   color: #444;
 }
 
-.why ul {
-  list-style-type: disc;
+.why li {
+  list-style-type: none;
   margin-left: 20px;
   font-size: 18px;
   color: #333;
+  text-align: center;
+  margin: 4rem;
 }
 
 .why span {
@@ -122,22 +130,33 @@
   /* font-weight: bold; */
 }
 
+.why_img {
+  width: 7rem;
+}
+
+.why_span {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 /* Style for the start section */
-.start h2 {
+/* .start h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #444;
+  text-align: center;
 }
 
 .start p {
   font-size: 18px;
   color: #444;
   text-align: center;
-}
+} */
 
 /* Style for the ready section */
 .ready {
   text-align: center;
+  width: 100%;
 }
 
 .ready h2 {
@@ -155,6 +174,7 @@
   text-align: center;
   text-decoration: none;
   border-radius: 5px;
+  border-color: transparent;
   font-size: 16px;
 }
 
