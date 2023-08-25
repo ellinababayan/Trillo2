@@ -5,3 +5,119 @@
   height: 80vh;
   width: 100%;
 }
+
+.container__searchbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 40%;
+  left: 32%;
+}
+
+.tours_container h1 {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.tours_container label {
+  font-size: 1.5rem;
+}
+
+.logo_tours {
+  width: 16rem;
+  margin: 2rem;
+}
+
+.search__tours {
+  background-color: white;
+  border: none;
+  color: inherit;
+  padding: 0.7rem 2rem;
+  border-radius: 10rem;
+  width: 20%;
+  transition: all 0.2s;
+  margin: 1rem;
+}
+
+.results p {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.find {
+  padding: 2rem 7.5rem;
+}
+
+@media only screen and (max-width: 1513px) {
+  label {
+    display: block;
+  }
+  .find {
+    display: block;
+    margin: auto;
+  }
+  .search__tourss {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .find {
+    padding: 2rem;
+  }
+
+  .search__tourss {
+    width: 50%;
+  }
+}
+
+.how_tours {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  /* text-align: center; */
+  width: 50%;
+  position: absolute;
+  top: 90%;
+  left: 32%;
+}
+
+.how_tours h2 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  /* color: #444; */
+}
+
+.how_tours li {
+  list-style-type: none;
+  margin-left: 20px;
+  font-size: 15px;
+  /* color: #333; */
+  text-align: center;
+  margin: 1rem;
+}
+
+.how_tours span {
+  font-size: 15px;
+  /* color: #444; */
+  /* font-weight: bold; */
+}
+
+.how_tours_img {
+  width: 7rem;
+}
+
+.tours_span {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
