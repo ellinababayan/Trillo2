@@ -98,12 +98,12 @@ const Header = (props) => {
           ""
         )}
         <div className="user-nav__user">
-          <img
+          {/* <img
             src="img/account.jpg"
             alt="User photo"
             className="user-nav__user-photo"
-          />
-          <span className="user-nav__user-name">Ellina</span>
+          /> */}
+          <span className="user-nav__user-name">Login</span>
         </div>
       </nav>
     </header>
