@@ -7,19 +7,19 @@ const HeaderContainer = () => {
 
   const handleOpenNotification = () => {
     setIsOpenNotification(true);
+    setIsOpenMessage(false)
   };
 
   const handleCloseNotification = () => {
-    console.log("clode");
     setIsOpenNotification(false);
   };
 
   const handleOpenMessage = () => {
     setIsOpenMessage(true);
+    setIsOpenNotification(false);
   };
 
   const handleCloseMessage = () => {
-    console.log("close");
     setIsOpenMessage(false);
   };
 
