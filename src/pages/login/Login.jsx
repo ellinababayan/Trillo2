@@ -1,40 +1,8 @@
-import React, { createContext, useContext, useState } from "react";
+import React from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import authService from "../../service/auth.service";
 
 const LoginForm = (props) => {
-  //   const AuthContext = createContext();
-
-  //   const useAuth = () => {
-  //     return useContext(AuthContext);
-  //   };
-  const navigate = useNavigate(); // For the automatic navigation
-  const [errorMessage, setErrorMessage] = useState("");
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-
-  const handleLogout = () => {
-    authService.logoutUser();
-    setIsLoggedIn(false);
-  };
-
-  const handleLogin = async (values, actions) => {
-    try {
-      const loginResult = await authService.loginUser(values, navigate);
-      if (loginResult) {
-        setIsLoggedIn(true);
-        // TODO: navigate to where user came from, not always home
-        navigate("/");
-        console.log("success");
-      }
-    } catch (error) {
-      setErrorMessage(error.message);
-      console.log("something wrong");
-    }
-    actions.setSubmitting(false);
-  };
-
   return (
     <div className="loginField">
       <link
@@ -54,8 +22,7 @@ const LoginForm = (props) => {
             email: "",
             password: "",
           }}
-          //   validationSchema={LoginSchema}
-          onSubmit={handleLogin}
+          onSubmit={props.handleLogin}
         >
           {({ isSubmitting }) => (
             <Form>
@@ -110,8 +77,8 @@ const LoginForm = (props) => {
                 Remember me
               </label>
               <div className="buttonDiv">
-                {errorMessage && (
-                  <div className="error_message">{errorMessage}</div>
+                {props.errorMessage && (
+                  <div className="error_message">{props.errorMessage}</div>
                 )}
               </div>
               <div className="error">

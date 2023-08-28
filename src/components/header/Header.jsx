@@ -104,6 +104,7 @@ const Header = (props) => {
             alt="User photo"
             className="user-nav__user-photo"
           /> */}
+          
           <NavLink to="/login" className="user-nav__user-name">Login</NavLink>
         </div>
       </nav>
