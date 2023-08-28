@@ -1,5 +1,5 @@
 import React from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 import "./Car.css";
 import HowCar from "./HowCar";
 
@@ -62,9 +62,9 @@ const Car = (props) => {
         </div>
       </div>
       <div className="how_car">
-        <ScrollAnimation animateIn="fadeIn">
+        {/* <ScrollAnimation animateIn="fadeIn">
           <h1>How It Works?</h1>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <HowCar />
       </div>
     </div>
