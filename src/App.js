@@ -13,8 +13,8 @@ import LoginContainer from "./pages/login/LoginContainer";
 function App() {
   return (
     <div className="container">
-      <HeaderContainer />
       <BrowserRouter>
+        <HeaderContainer />
         <div className="content">
           <NavBarContainer />
           <Routes>

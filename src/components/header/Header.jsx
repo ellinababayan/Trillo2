@@ -3,6 +3,7 @@ import "../../draftSTyle/main.css";
 import "./Header.css";
 import Notification from "../notification/Notification";
 import Message from "../message/Message";
+import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
   return (
@@ -103,7 +104,7 @@ const Header = (props) => {
             alt="User photo"
             className="user-nav__user-photo"
           /> */}
-          <span className="user-nav__user-name">Login</span>
+          <NavLink to="/login" className="user-nav__user-name">Login</NavLink>
         </div>
       </nav>
     </header>
