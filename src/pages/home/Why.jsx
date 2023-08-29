@@ -44,6 +44,16 @@ const Why = (props) => {
           clock to assist you, ensuring a stress-free travel experience.
         </li>
       </span>
+      <div>
+        <button
+          type="submit"
+          id="down"
+          className="navigation"
+          onClick={props.scrollToLast}
+        >
+          &#8964;
+        </button>
+      </div>
     </div>
   );
 };

@@ -3,9 +3,14 @@ import "./Home.css";
 import Why from "./Why";
 
 const Home = (props) => {
-  const ref = useRef();
-  const scrollToLast = () => {
-    const lastChildElement = ref.current?.lastElementChild;
+  const whyRef = useRef();
+  const readyRef=useRef();
+  const scrollToWhy = () => {
+    const lastChildElement = whyRef.current?.lastElementChild;
+    lastChildElement?.scrollIntoView({ behavior: "smooth" });
+  };
+  const scrollToReady = () => {
+    const lastChildElement = readyRef.current?.lastElementChild;
     lastChildElement?.scrollIntoView({ behavior: "smooth" });
   };
   return (
@@ -38,27 +43,18 @@ const Home = (props) => {
             type="submit"
             id="down"
             className="navigation"
-            onClick={scrollToLast}
+            onClick={scrollToWhy}
           >
             &#8964;
           </button>
         </div>
       </div>
 
-      <div className="why block" id="why" ref={ref}>
-        <Why />
+      <div className="why block" id="why" ref={whyRef}>
+        <Why scrollToLast={scrollToReady} />
       </div>
 
-      {/* <div className="start block">
-        <h2> Start Your Journey Today </h2>
-        <p>
-          Planning your dream vacation has never been this exciting. Join Trillo
-          today and embark on a travel adventure that's as unique as you are.
-          Begin by searching for your ideal destination, or explore our
-          handpicked travel guides for inspiration.
-        </p>
-      </div> */}
-      <div className="ready block">
+      <div className="ready block" ref={readyRef}>
         <h2>
           Ready to Dive In? <br></br>Let's Get Started!
         </h2>
