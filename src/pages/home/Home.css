@@ -32,11 +32,6 @@
     width: 20rem;
   }
 }
-/* @media only screen and (max-width: 900px) {
-  .summary h1 {
-    font-size: 20px;
-  }
-} */
 
 @media only screen and (max-width: 600px) {
   .logo_big {
@@ -138,20 +133,6 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
-/* Style for the start section */
-/* .start h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #444;
-  text-align: center;
-}
-
-.start p {
-  font-size: 18px;
-  color: #444;
-  text-align: center;
-} */
 
 /* Style for the ready section */
 .ready {
