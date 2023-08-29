@@ -15,11 +15,11 @@ const LoginForm = (props) => {
       <div>
         <h1 className="loginName">Login</h1>
         <p className="signupSubtitle">
-          Welcome back! Log in to generate a date plan
+          Welcome back! Log In to reveal new features
         </p>
         <Formik
           initialValues={{
-            email: "",
+            username: "",
             password: "",
           }}
           onSubmit={props.handleLogin}
@@ -27,12 +27,12 @@ const LoginForm = (props) => {
           {({ isSubmitting }) => (
             <Form>
               <label htmlFor="email" className="label">
-                Email
+                Username
               </label>
               <Field
                 type="username"
                 name="email"
-                placeholder="email"
+                placeholder="username"
                 className="input"
               />
 
