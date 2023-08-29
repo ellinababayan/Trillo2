@@ -140,7 +140,7 @@ body {
   overflow: hidden;
   cursor: pointer;
   transition: background-image 0.3s;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .button::before {
