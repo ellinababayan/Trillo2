@@ -1,26 +1,13 @@
 .notification_container {
   background-color: #f4f2f2;
+  font-size: 1.4rem;
   position: absolute;
   top: 20%;
   right: 14rem;
   z-index: 20;
-  height: 15rem;
+  height: 16rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   display: inline-block;
-}
-
-@media only screen and (max-width: 900px) {
-  .notification_container {
-    top:4.5%;
-    right: 10rem
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .notification_container {
-    top:8%;
-    right: 10rem
-  }
 }
 
 .btn_close {
@@ -30,5 +17,52 @@
 
 .notification {
   /* border-radius: 1rem; */
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media only screen and (max-width: 2000px) {
+  .notification_container {
+    top: 11%;
+    right: 44rem;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .notification_container {
+    top: 11%;
+    right: 33rem;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .notification_container {
+    top: 11%;
+    right: 21rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .notification_container {
+    top: 5%;
+    right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .notification_container {
+    top: 4%;
+    right: 5rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .notification_container {
+    top: 4.5%;
+    right: 10rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .notification_container {
+    top: 8%;
+    right: 10rem;
+  }
 }
