@@ -191,6 +191,19 @@
 
 @media only screen and (min-width: 1700px) {
   .summary {
+    top: 40%;
     width: 30%;
+  }
+  .summary_background {
+    height: 55vh;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  .summary {
+    top: 40%;
+    left: 54%;
+  }
+  .summary_background {
+    height: 55vh;
   }
 }

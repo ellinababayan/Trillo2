@@ -1,30 +1,77 @@
 .message_container {
-    background-color: #f4f2f2;
-    position: absolute;
+  background-color: #f4f2f2;
+  font-size: 1.4rem;
+  position: absolute;
+  top: 20%;
+  right: 14rem;
+  z-index: 20;
+  height: 9rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.btn_close {
+  padding: 0.5rem;
+  margin-left: 20rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .message_container {
+    top: 11%;
+    right: 54rem;
+  }
+}
+@media only screen and (min-width: 2250px) {
+  .message_container {
+    top: 12%;
+    right: 64rem;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .message_container {
+    top: 11%;
+    right: 47rem;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  .message_container {
     top: 20%;
-    right: 14rem;
-    z-index: 20;
-    height: 15rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    display: inline-block;
+    right: 27rem;
   }
+}
 
-  @media only screen and (max-width: 900px) {
-    .message_container {
-      top:4.5%;
-      right: 10rem
-    }
+@media only screen and (max-width: 1500px) {
+  .message_container {
+    top: 16%;
+    right: 21rem;
   }
+}
 
-  @media only screen and (max-width: 500px) {
-    .message_container {
-      top:8%;
-      right: 10rem
-    }
+@media only screen and (max-width: 1200px) {
+  .message_container {
+    top: 6%;
+    right: 10rem;
   }
-  
-  .btn_close {
-    padding: 0.5rem;
-    margin-left: 20rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  .message_container {
+    top: 6%;
+    right: 10rem;
   }
-  
+}
+@media only screen and (max-width: 900px) {
+  .message_container {
+    top: 6%;
+    right: 13rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .message_container {
+    top: 8%;
+    right: 13rem;
+  }
+}
