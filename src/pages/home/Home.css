@@ -8,7 +8,7 @@
 }
 /* Apply a background color and center content */
 .home_container {
-  background-color: #f2f2f2;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,7 @@
   /* background-image: url(/public/img/ai-generated-7980042.jpg);
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #f4f2f2;
+  background-color: #fff;
   height: 85vh;
   width: 100%;
   /* filter: blur(3px); */
@@ -52,7 +52,7 @@
 
 .summary {
   background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(107, 167, 219, 0.514); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
@@ -88,7 +88,7 @@
 
 .summary h4 {
   font-size: 19px;
-  color: #bbbbbb;
+  color: #1b244a;
   margin-bottom: 20px;
   text-align: center;
   font-style: italic;
