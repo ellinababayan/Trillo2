@@ -4,8 +4,19 @@ import "./Header.css";
 import Notification from "../notification/Notification";
 import Message from "../message/Message";
 import { NavLink } from "react-router-dom";
+import authService from "../../service/auth.service";
 
 const Header = (props) => {
+  const handleLogout = async () => {
+    try {
+      await authService.logoutUser();
+      console.log("logout");
+      props.setIsLoggedIn(false); // Update the isLoggedIn state
+    } catch (error) {
+      console.error("Error logging out:", error);
+    }
+  };
+
   return (
     <header className="header">
       <a href="/">
@@ -99,13 +110,15 @@ const Header = (props) => {
           ""
         )}
         <div className="user-nav__user">
-          {/* <img
-            src="img/account.jpg"
-            alt="User photo"
-            className="user-nav__user-photo"
-          /> */}
-          
-          <NavLink to="/login" className="user-nav__user-name">Login</NavLink>
+          {props.isLoggedIn ? (
+            <a onClick={handleLogout} className="button_logout">
+              Logout
+            </a>
+          ) : (
+            <NavLink to="/login" className="user-nav__user-name">
+              Login
+            </NavLink>
+          )}
         </div>
       </nav>
     </header>

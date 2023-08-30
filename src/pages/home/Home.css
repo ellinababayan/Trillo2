@@ -41,12 +41,13 @@
 }
 
 .summary_background {
-  background-image: url(/public/img/ai-generated-7980042.jpg);
+  /* background-image: url(/public/img/ai-generated-7980042.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: #f4f2f2;
   height: 85vh;
   width: 100%;
-  filter: blur(3px);
+  /* filter: blur(3px); */
 }
 
 .summary {

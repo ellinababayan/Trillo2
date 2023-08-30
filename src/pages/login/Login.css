@@ -34,7 +34,7 @@ body {
 
 .loginField {
   margin: 0 auto;
-  padding: 4rem;
+  padding: 2rem 4rem;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 1rem;
   box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
@@ -43,9 +43,8 @@ body {
 }
 
 .loginName {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: #333;
-  margin-bottom: 2rem;
 }
 
 .signupSubtitle {
@@ -67,14 +66,14 @@ body {
 }
 
 .label {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .eye {
   cursor: pointer;
   position: absolute;
-  width: 2rem;
-  top: 57%;
+  width: 3rem;
+  top: 50%;
   right: 5rem;
   transform: translateY(-50%);
   z-index: 1;
@@ -87,7 +86,7 @@ body {
 .terms {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-size: 1.3rem;
   padding-left: 0.5rem;
 }
@@ -196,4 +195,11 @@ body {
   color: #eb2f64;
 }
 
-/* Additional styles for responsiveness can be added as needed */
+.default_profile {
+  text-align: center;
+  font-style: italic;
+}
+.rule {
+  font-style: normal;
+  font-size: 1.2rem;
+}

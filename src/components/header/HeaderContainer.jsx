@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Header from "./Header";
 
-const HeaderContainer = () => {
+const HeaderContainer = (props) => {
   const [isOpenMessage, setIsOpenMessage] = useState(false);
   const [isOpenNotification, setIsOpenNotification] = useState(false);
 
   const handleOpenNotification = () => {
     setIsOpenNotification(true);
-    setIsOpenMessage(false)
+    setIsOpenMessage(false);
   };
 
   const handleCloseNotification = () => {
@@ -33,6 +33,8 @@ const HeaderContainer = () => {
       handleCloseNotification={handleCloseNotification}
       handleCloseMessage={handleCloseMessage}
       handleOpenMessage={handleOpenMessage}
+      isLoggedIn={props.isLoggedIn}
+      setIsLoggedIn={props.setIsLoggedIn}
     />
   );
 };

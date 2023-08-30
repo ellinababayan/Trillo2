@@ -26,19 +26,18 @@ const LoginForm = (props) => {
         >
           {({ isSubmitting }) => (
             <Form>
-              <label htmlFor="email" className="label">
+              <label htmlFor="username" className="label">
                 Username
               </label>
               <Field
                 type="username"
-                name="email"
+                name="username"
                 placeholder="username"
                 className="input"
               />
-
               <div className="error">
                 <ErrorMessage
-                  name="email"
+                  name="username"
                   component="div"
                   className="error_message"
                 />
@@ -58,7 +57,6 @@ const LoginForm = (props) => {
                   <i id="toggler" className="far fa-eye"></i>
                 </span>
               </div>
-
               <div className="error">
                 <ErrorMessage
                   name="password"
@@ -88,20 +86,15 @@ const LoginForm = (props) => {
                   className="error_message"
                 />
               </div>
-
+              <div className="default_profile">
+                <p className="rule">Use following credentials:</p>{" "}
+                <p>Username: admin</p>
+                <p> Password: 0979167159e</p>
+              </div>
               <div className="buttonDiv">
                 <button type="submit" className="button">
                   Submit
                 </button>
-              </div>
-
-              <div>
-                <NavLink to="/signup">
-                  <div className="already">
-                    Don&apos;t have an account?{" "}
-                    <span className="underline">Sign Up</span>
-                  </div>
-                </NavLink>
               </div>
             </Form>
           )}
