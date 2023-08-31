@@ -44,7 +44,7 @@ const Why = (props) => {
           clock to assist you, ensuring a stress-free travel experience.
         </li>
       </span>
-      <div>
+      {/* <div>
         <button
           type="submit"
           id="down"
@@ -53,7 +53,7 @@ const Why = (props) => {
         >
           &#8964;
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

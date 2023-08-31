@@ -68,13 +68,15 @@
 
 @media only screen and (max-width: 900px) {
   .summary {
-    height: 50%;
+    height: 60%;
+    width: 60%;
   }
 }
 
 @media only screen and (max-width: 520px) {
   .summary {
     height: 60%;
+    width: 90%;
   }
 }
 
