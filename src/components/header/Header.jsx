@@ -7,14 +7,20 @@ import { NavLink } from "react-router-dom";
 import authService from "../../service/auth.service";
 
 const Header = (props) => {
-  const handleLogout = async () => {
-    try {
-      await authService.logoutUser();
-      console.log("logout");
-      props.setIsLoggedIn(false); // Update the isLoggedIn state
-    } catch (error) {
-      console.error("Error logging out:", error);
-    }
+  // const handleLogout = async () => {
+  //   try {
+  //     await authService.logoutUser();
+  //     console.log("logout");
+  //     props.setIsLoggedIn(false); // Update the isLoggedIn state
+  //   } catch (error) {
+  //     console.error("Error logging out:", error);
+  //   }
+  // };
+
+  const handleLogout = () => {
+    // Perform logout actions here, e.g., clearing user data
+    props.setIsLoggedIn(false); // Update the isLoggedIn state
+    // navigate("/login"); // Redirect to the login page or another appropriate location
   };
 
   return (

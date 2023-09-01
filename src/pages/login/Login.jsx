@@ -89,7 +89,7 @@ const LoginForm = (props) => {
               <div className="default_profile">
                 <p className="rule">Use following credentials:</p>{" "}
                 <p>Username: admin</p>
-                <p> Password: 0979167159e</p>
+                <p> Password: admin321</p>
               </div>
               <div className="buttonDiv">
                 <button type="submit" className="button">

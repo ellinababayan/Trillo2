@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import authService from "../../service/auth.service";
 import LoginForm from "./Login";
-import "./Login.css"
+import "./Login.css";
 
 const LoginContainer = (props) => {
   const togglePassword = () => {
@@ -23,20 +23,32 @@ const LoginContainer = (props) => {
     }
   };
 
-  const handleLogin = async (values, actions) => {
-    try {
-      const loginResult = await authService.loginUser(values, navigate);
-      if (loginResult) {
-        props.setIsLoggedIn(true);
-        // TODO: navigate to where user came from, not always home
-        navigate("/");
-      }
-    } catch (error) {
-      setErrorMessage(error.message);
-      console.log("something wrong");
+  // const handleLogin = async (values, actions) => {
+  //   try {
+  //     const loginResult = await authService.loginUser(values, navigate);
+  //     if (loginResult) {
+  //       props.setIsLoggedIn(true);
+  //       // TODO: navigate to where user came from, not always home
+  //       navigate("/");
+  //     }
+  //   } catch (error) {
+  //     setErrorMessage(error.message);
+  //     console.log("something wrong");
+  //   }
+  //   actions.setSubmitting(false);
+  //   console.log("isLoggedIn?:", props.isLoggedIn);
+  // };
+
+  const handleLogin = (values, actions) => {
+    // Check the credentials here
+    if (values.username === "admin" && values.password === "admin321") {
+      props.setIsLoggedIn(true);
+      navigate("/");
+    } else {
+      setErrorMessage("Invalid username or password.");
     }
+
     actions.setSubmitting(false);
-    console.log("isLoggedIn?:", props.isLoggedIn);
   };
 
   const navigate = useNavigate(); // For the automatic navigation
