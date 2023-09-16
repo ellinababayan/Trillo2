@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Trillo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Trillo is a helpful web application for people planning their vacations
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+  
+## Introduction
+Welcome to our website! This readme file provides an overview of our website and how to get started with it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://github.com/ellinababayan/Trillo2/assets/128013006/e56111e0-aac1-4d69-b3c7-ce3653c90ca1
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+Our website offers the following features:
 
-### `npm run build`
+1. Browse Content: Browse a wide range of content, including articles, videos, and images.
+2. Responsive Design: The website is designed to work seamlessly on desktop and mobile devices.
+3. Navigation Menus and Breadcrumbs: Intuitive menus for easy navigation, breadcrumbs for users to track their location within the website
+4. Search Functionality: Easily search for specific content using keywords and filters.
+5. Sitemap for Easier Navigation: A sitemap providing an overview of website structure and content for users
+6. Media Galleries and Sliders: Galleries for showcasing images or multimedia content
+7. Redirecting user: Redirecting user to partners
+8. Contact Forms and Customer Support: Customer support options, including contact information and response channels
+9. Terms of Service and Privacy Policy: Privacy policy outlining data handling and user privacy practices
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
+To run our website locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the Repository: Clone this repository to your local machine using git clone.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+- Copy code
+- `git clone https://github.com/ellinababayan/Trillo2.git`
+- Install Dependencies: Navigate to the project directory and install the required dependencies.
 
-### `npm run eject`
+bash
+- Copy code
+- `cd your-repo-directory`
+- `npm install`
+Environment Variables: Create a .env file in the project root and set the necessary environment variables. Refer to the .env.example file for the required variables.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Database Setup: Set up a database system (e.g., MySQL, PostgreSQL, MongoDB) and configure the database connection in the .env file.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the Server: Run the development server.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+- Copy code
+- `npm run start`
+- Access the Website: Open a web browser and navigate to http://localhost:3000 to access the website.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
+Our website is designed to be intuitive and user-friendly.
+Explore different categories and use the search bar to find specific content.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+If you'd like to rise the issue to the development of this website, please follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Navigate to Issue tab
+- Press "Create a new issue"
+- Describe the issue you noticed
+- We'll review your issue and consider it if it aligns with our project's goals.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the Mozilla Public License 2.0.
